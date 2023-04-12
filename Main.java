@@ -20,7 +20,7 @@ class Main {
      
       System.out.println("Opcje:");
       System.out.println("1 dodaj nowego studenta");
-      System.out.println("2");
+      System.out.println("2 wypisz studentów");
       System.out.println("0 wyjscie");
 
     option = scanner.nextInt();
@@ -34,12 +34,18 @@ class Main {
           s.addStudent(new Student(name, age));
           break;
         case 2:
+          
           break;
         case 0:
           System.out.println("Wybrano opcje wyjscie");
           break;
     
       }
+      var students = s.getStudents();
+      for(Student current : students) {
+        System.out.println(current.ToString());
+      }
+      
       
     } catch (IOException e) {
 
