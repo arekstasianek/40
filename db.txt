@@ -10,3 +10,4 @@ karol 23
 olek 25
 arek 23
 xx 22
+AREK STA 22
