@@ -17,14 +17,13 @@ class Main {
       Scanner scanner = new Scanner(System.in);
       int option;
 
-     
       System.out.println("Opcje:");
       System.out.println("1 dodaj nowego studenta");
       System.out.println("2 wypisz studentów");
       System.out.println("0 wyjscie");
 
-    option = scanner.nextInt();
-      
+      option = scanner.nextInt();
+
       switch (option) {
         case 1:
           System.out.println("Podaj imie studenta");
@@ -36,19 +35,15 @@ class Main {
           s.addStudent(new Student(name, nazwisko, age));
           break;
         case 2:
-          
+          var students = s.getStudents();
+          for(Student current : students) {
+            System.out.println(current.GetName() + " " + current.GetNazwisko() + " " + current.GetAge());
+          }
           break;
         case 0:
           System.out.println("Wybrano opcje wyjscie");
           break;
-    
       }
-      var students = s.getStudents();
-      for(Student current : students) {
-        System.out.println(current.ToString());
-      }
-      
-      
     } catch (IOException e) {
 
     }

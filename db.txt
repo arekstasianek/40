@@ -1,13 +1,5 @@
-Krzysztof 20
-Janusz 40
-Krzysztof 20
-Janusz 40
-tomek 23
-arek 21
-filip 34
-adrian 22
-karol 23
-olek 25
-arek 23
-xx 22
-AREK STA 22
+tomek tark 23
+tomek bednarek 22
+]krystian lach 24
+filip lak 22
+irek jj 44
