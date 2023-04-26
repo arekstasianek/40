@@ -30,7 +30,7 @@ class Main {
           String name = scanner.next();
           System.out.println("Podaj nazwisko studenta");
           String nazwisko = scanner.next();
-          System.out.println("Podaj wiek studenta");
+          System.out.println("Podaj wiek studenta"); 
           int age = scanner.nextInt();
           s.addStudent(new Student(name, nazwisko, age));
           break;
